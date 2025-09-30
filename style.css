@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: #1A1A1A;
+    background: radial-gradient(circle at bottom right, #5F30F8 , #FC8867, #1A1A1A 30%);
+    
+}
+
+.teks-gradasi{
+        background-image: linear-gradient(30deg, #5F30F8 , #FC8867);
+        background-clip: text;
+        color: transparent;
+        font-family: 'Poppins';
+}
+
+.wrapper{
+    background-color:  #1A1A1A;
+    background: transparent;
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 196px;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 1rem 5rem 1rem 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.reviews .heading .title{
+    font-size: 34px;
+    font-weight: 500;
+    color: #444;
+}
+.reviews .heading .subtitle{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+}
+
+/* ini dah bener bawah */
+.reviews .item{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 1rem;
+    padding-right: 250%;
+    padding-inline-start: 200px;
+}
+
+.reviews .card{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(33, 33, 33, 0.6);
+    border-radius: 6px;
+    padding: 30px 150px 30px 150px;
+    /* margin: 0px 15px 0px 15px; */
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.reviews .image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.reviews .image img{
+    width: fit-content;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 90%;
+    transform: scale(1);
+}
+
+.reviews .name {
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    padding: 1rem 0rem;
+    padding-bottom: 0rem;
+}
+
+.reviews .rating{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.reviews .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+    height: 130px;
+    width: 290px;
+    overflow: hidden;
+    padding: 1rem 0rem 0rem 0rem;
+    color: azure;
+}
+.reviews .desc p{
+    font-size: 13.5px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.reviews .rating{
+    margin-bottom: 10px;
+}
+
+.reviews .job{
+    color: azure;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tombol-maju{
+    background: #2D272A;
+}
+.tombol-mundur{
+    background: #2D272A;
+}
+
+.tombol-maju:hover{
+    background: rgba(43,39,41, 0.7);
+}
+.tombol-mundur:hover{
+    background: rgba(43,39,41, 0.7);
+}
+
+.warna-bintang{
+    color: rgba(255, 242, 1, 0.967);
+}
+
+.warna-abu{
+    color: rgb(209, 195, 195)
+}
