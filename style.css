@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     justify-content: center;
     position: relative;
-    margin-bottom: 196px;
+    margin-bottom: 65px;
 }
 
 .container{
@@ -58,7 +58,7 @@ body{
     display: flex;
     grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
     gap: 1rem;
-    padding-right: 250%;
+    padding-right: 300%;
     padding-inline-start: 200px;
 }
 
